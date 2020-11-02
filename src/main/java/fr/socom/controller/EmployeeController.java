@@ -35,11 +35,11 @@ public class EmployeeController {
 	}
 	
 	
-	@PostMapping(value = "/employees/{id}" )
+	/*@PostMapping(value = "/employees/{id}" )
 	public  Employee getEmployee(@PathVariable(value = "id") Long id){
 		Employee emp=new Employee();
 		emp=employeeRepository.findById(id).get();
 		return emp;
-	}
+	}*/
 
 }
