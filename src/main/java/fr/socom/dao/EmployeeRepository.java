@@ -6,5 +6,5 @@ import fr.socom.entities.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long>{
 
-	Employee findByIdEmployee(Long id);
+	//Employee findByIdEmployee(Long id);
 }
